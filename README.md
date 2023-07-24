@@ -1,0 +1,1 @@
+#Readme Dla zasady
