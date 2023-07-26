@@ -102,4 +102,22 @@
 #print("domyslny sepraratos","llolo")
 #print("nie domyslny sepraratos","llolo",sep="---")
 
+#zadanka
+#def plusy_minusy(liczpa,zakres=10):
+ #   return (liczpa*zakres/100)+liczpa
+
+#print(f"jkaby zwiekszyc cene zyrafy z 200zł o 10 procent które sa domyslne to  {plusy_minusy(200)}")
+#print(f"jkaby zwiekszyc cene zyrafy z 200zł o 50 procent które sa domyslne to  {plusy_minusy(200,50)}")
+
+def dziennik_osob(napis,lista=None):
+    if lista is None:
+        lista=[]
+
+    napis=napis.split(",")
+    for i in napis:
+        lista.append(i)
+    return  lista
+
+print(dziennik_osob("ania,kasia,ola,pola",["daria","mariusz"]))
+
 
