@@ -114,10 +114,7 @@ def dziennik_osob(napis,lista=None):
         lista=[]
 
     napis=napis.split(",")
-    for i in napis:
-        lista.append(i)
+    lista += napis
     return  lista
 
 print(dziennik_osob("ania,kasia,ola,pola",["daria","mariusz"]))
-
-
